@@ -1,0 +1,444 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+html, body{
+    width: 100%;
+    height: 1000px;
+}
+.warpper{
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+}
+
+.warpper .top-nav-warp{
+    width: 100%;
+    height: 35px;
+    background-color: #eee;
+ 
+}
+
+
+.warpper .top-nav-warp .top-nav{
+    width: 1190px;
+    height: 100%;
+    margin: 0 auto;
+
+}
+
+.warpper .top-nav-warp .top-nav .top-nav-left{
+    float: left;
+}
+
+
+.warpper .top-nav-warp .top-nav .top-nav-right{
+    float: right;
+}
+
+
+.warpper .top-nav-warp .top-nav .top-nav-item{
+    float: left;
+    margin-right: 7px;
+
+}
+
+.warpper .top-nav-warp .top-nav li a{
+    color: #3c3c3c;
+   float: left;
+    font-size: 12px;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 6px;
+}
+
+.warpper .top-nav-warp .top-nav .top-nav-item .china{
+    color: #3c3c3c;
+    float: left;
+    margin-right: 6px;
+    font-size: 12px;
+    margin-left: 6px;
+    line-height: 35px;
+}
+
+
+.warpper .top-nav-warp .top-nav .top-nav-item a:hover,
+.warpper .top-nav-warp .top-nav .top-nav-item .login
+{
+    color: #f40;
+}
+
+.warpper .top-nav-warp .top-nav .cutOff{
+    height: 35px;
+    line-height: 35px;
+}
+
+.warpper .top-nav-warp .top-nav .bgPic{
+    float: left;
+    display: block;
+    background-size: 100% 100%;
+}
+
+.warpper .top-nav-warp .top-nav .xsjPic{
+    width: 6px;
+    height: 6px;
+    margin-top: 14px;
+    background-image: url('img/xsj.png')
+}
+
+.warpper .top-nav-warp .top-nav .shopCarPic{
+    width: 12px;
+    height: 12px;
+    margin-top: 11px;
+    margin-right: 3px;
+    background-image: url('img/gwc.png');
+}
+
+.warpper .top-nav-warp .top-nav .starPic{
+    width: 12px;
+    height: 12px;
+    margin-top: 11px;
+    margin-right: 3px;
+    background-image: url('img/star.png');
+}
+
+.warpper .top-nav-warp .top-nav .webNavPic{
+    width: 12px;
+    height: 12px;
+    margin-top: 11px;
+    margin-right: 3px;
+    background-image: url('img/menu.png');
+}
+
+/* nav class */
+.warpper .top-search-warp{
+    width: 100%;
+    height: 121px;
+    background-color: white;
+}
+
+.warpper .top-search-warp .top-search{
+    width: 100%;
+    height: 97px;
+    padding-top: 24px;
+}
+
+.warpper .top-search-warp .top-search .top-search-content{
+    width: 1190px;
+    height: 88px;
+    margin: 0 auto;
+}
+
+.warpper .top-search-warp .top-search .top-search-content .top-search-logo{
+    width: 190px;
+    height: 88px;
+    display: inline-block;
+}
+
+.warpper .top-search-warp .top-search .top-search-content .top-search-logo .logo-bg{
+    width: 140px;
+    height: 58px;
+    margin-top: 15px;
+    margin-left: 22px;
+    display: block;
+    background-image: url('img/logo.png')
+}
+
+.warpper .top-search-warp .top-search .top-search-content .top-search-center{
+    width: 627px;
+    height: 88px;
+    display: inline-block;
+    margin-left: 48px;
+}
+
+.warpper .top-search-warp .top-search .top-search-content .top-search-code{
+    width: 76px;
+    height: 90px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin-left: 110px;
+    text-align: center;
+}
+
+
+.warpper .top-search-warp .top-search .top-search-content .top-search-center .center-top{
+    width: 610px;
+    height: 22px;
+    margin-left: 17px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.warpper .top-search-warp .top-search .top-search-content .top-search-center .center-top .center-top-label{
+    float: left;
+    width: 36px;
+    height: 22px;
+    line-height: 22px;
+    margin-right: 4px;
+    color: #f40;
+    cursor: pointer;
+}
+
+.warpper .top-search-warp .top-search .top-search-content .top-search-center .center-top .center-top-label:hover{
+    background-color: rgb(247, 206, 191);
+    color: white;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.warpper .top-search-warp .top-search .top-search-content .top-search-center .center-top .center-top-select{
+    float: left;
+    width: 36px;
+    height: 22px;
+    line-height: 22px;
+    margin-right: 4px;
+    color: white;
+    background-image: linear-gradient(to right,#ff9000 0,#ff5000 100%);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    cursor: pointer;
+}
+
+.warpper .top-search-warp .top-search .top-search-content .top-search-center .center-center{
+    width: 627px;
+    height: 40px;
+    position: relative;
+}
+
+.warpper .top-search-warp .top-search .top-search-content .top-search-center .center-bottom{
+    height: 20px;
+    width: 586px;
+    padding-top: 5px;
+    padding-right: 41px;
+}
+
+.warpper .top-search-warp .top-search .top-search-content .top-search-center .center-center .center-left{
+    height: 36px;
+    width: 551px;
+    margin-right: 74px;
+    border: 2px solid #f40;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: relative;
+
+}
+
+.warpper .top-search-warp .top-search .top-search-content .top-search-center .center-center .center-left .ic-search{
+        width: 26px;
+        height: 26px;
+        margin: 5px 7px;
+        background-size: 100% 100%;
+        background-image: url('img/search.png')
+}
+
+.warpper .top-search-warp .top-search .top-search-content .top-search-center .center-center .center-left .ic-camera{
+    width: 26px;
+    height: 26px;
+    margin: 5px 7px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-size: 100% 100%;
+    background-image: url('img/camera.png')
+}
+
+
+.warpper .top-search-warp .top-search .top-search-content .top-search-center .center-center .center-right{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 74px;
+    height: 40px;
+    z-index: 100;
+    text-align: center;
+    background-image: linear-gradient(to right,#ff9000 0,#ff5000 100%);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.warpper .top-search-warp .top-search .top-search-content .top-search-center .center-center .center-right .btn-search{
+    width: 74px;
+    height: 40px;
+    line-height: 40px;
+    background: none;
+    outline: none;
+    border:0px;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.warpper .top-search-warp .top-search .top-search-content .top-search-center .center-bottom .center-bottom-list{
+    font-size: 12px;
+    height: 18px;
+    line-height: 18px;
+    padding-bottom: 5px;
+}
+
+.warpper .top-search-warp .top-search .top-search-content .top-search-center .center-bottom .center-bottom-item{
+    float: left;
+    margin-right: 6px;
+}
+.warpper .top-search-warp .top-search .top-search-content .top-search-center .center-bottom .center-bottom-item:hover{
+    color: #f40;
+    cursor: pointer;
+}
+
+.warpper .top-search-content .top-search-code .code-text{
+    width: 76px;
+    text-align: center;
+    font-size: 12px;
+    color: #f40;
+}
+
+
+.warpper .top-search-content .top-search-code .code-img{
+    width: 66px;
+    height: 66px;
+    margin: 3px;
+}
+
+/* 搜索 */
+
+
+/* 中间导航 */
+
+.warpper .center-nav-warp{
+    width: 100%;
+    height: 30px;
+    background-image: linear-gradient(to right, rgb(255, 144, 0) 0px, rgb(255, 80, 0) 100%)
+}
+
+.warpper .center-nav-warp .center-nav-content{
+    width: 1190px;
+    height: 30px;
+    margin: 0px auto;
+}
+
+
+.warpper .center-nav-warp .center-nav-content .center-nav-title{
+    width: 190px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    background-color: #f40;
+    float: left;
+}
+
+.warpper .center-nav-warp .center-nav-content .center-nav-item{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin: 0px 3px;
+    padding: 0px 4px;
+    color: white;
+    cursor: pointer;
+}
+.warpper .center-nav-warp .center-nav-content .center-nav-item:hover{
+    color: #f40;
+}
+
+
+.warpper .center-nav-warp .center-nav-content .center-nav-item-line{
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 3px;
+    color: white;
+}
+
+
+
+/* 页面内同区域 */
+
+.warpper .center-content-warp{
+    width: 1190px;
+    height: 632px;
+    margin: 0px auto;
+
+}
+.warpper .center-content-warp .center-content-left{
+    width: 190px;
+    height: 100%;
+
+}
+.warpper .center-content-warp .center-content-left .center-content-list{
+    width: 188px;
+    border: 1px solid #f40;
+    padding:2px 0px;
+}
+
+.warpper .center-content-warp .center-content-left .center-content-list .center-content-left-item{
+    width: 145px;
+    height: 32px;
+    line-height: 32px;
+    padding: 0px 19px 0px 25px;;
+    font-size: 14px;
+    color: #666;
+    position: relative;
+}
+
+.warpper .center-content-warp .center-content-left .center-content-list .center-content-left-item:hover{
+    background-color: rgb(238, 176, 153);
+    color: #f40;
+}
+
+.warpper .center-content-warp .center-content-left .center-content-list .center-content-left-item:hover a{
+    color: #f40;
+}
+
+
+.warpper .center-content-warp .center-content-left .center-content-list .center-content-left-item a:hover{
+    color: #f40;
+    text-decoration: underline;
+}
+
+.warpper .center-content-warp .center-content-left .center-content-list .center-content-left-item .r-arrow{
+    
+    position: absolute;
+    right: 10px;
+    width: 12px;
+    height: 32px;
+    line-height: 32px;
+    color: #666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.size-18{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.size-16{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
